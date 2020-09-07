@@ -37,7 +37,7 @@ public class Controller {
        search.setOnAction(event -> {
            String getUserCity = city.getText().trim();
            if (!getUserCity.equals("")){
-               String output = getUrl("http://api.openweathermap.org/data/2.5/weather?q="+ getUserCity +"&appid=7d0f0033a039bbc4b0beef927f1990a9&units=metric");
+               String output = getUrl("http://api.openweathermap.org/data/2.5/weather?q="+ getUserCity +"&appid=XXX=metric");
                System.out.println(output);
 
                if (!output.isEmpty()){
